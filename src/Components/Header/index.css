@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#menu-link {
+    text-decoration: none;
+    color: black;
+}
+
+#contact-link {
+    text-decoration: none;
+    color: black;
+}
+
+#locations-link {
+    text-decoration: none;
+    color: black;
+}
+
+#about-link {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    position: absolute;
+    left: 38%;
+    top: 0;
+    max-width: 300px;
+    height: auto;
+}
