@@ -1,35 +1,32 @@
-.header {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
+.nav {
+    margin: 0 auto;
+    width: 1170px;
 }
 
-#menu-link {
+.nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+.nav ul li {
+    float: none;
+    display: inline-block;
+}
+
+.nav ul li:nth-child(1) {
+    float: left;
+}
+
+.nav ul li:nth-child(2) {
+    float: left;
+}
+
+.nav ul li Link {
+    font-size: 20px;
+    text-transform: uppercase;
     text-decoration: none;
-    color: black;
-}
-
-#contact-link {
-    text-decoration: none;
-    color: black;
-}
-
-#locations-link {
-    text-decoration: none;
-    color: black;
-}
-
-#about-link {
-    text-decoration: none;
-    color: black;
-}
-
-img {
-    position: absolute;
-    left: 38%;
-    top: 0;
-    max-width: 300px;
-    height: auto;
+    display: block;
+    padding: 10px 20px;
 }
